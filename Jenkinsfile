@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('pre') {
       steps {
-        dir(path: '/tmp')
+        pwd()
       }
     }
 
